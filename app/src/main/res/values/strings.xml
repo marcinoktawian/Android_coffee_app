@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Kafkowanie</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_aeropress">Aeropress</string>
+    <string name="menu_v60">Drip V60</string>
+    <string name="menu_kalita">Kalita</string>
+    <string name="menu_chemex">Chemex</string>
+    <string name="menu_french_press">French Press</string>
+    <string name="menu_syphon">Syfon</string>
+    <string name="menu_cafetiere">Kawiarka</string>
+    <string name="menu_random">Losuj metodę</string>
+    <string name="menu_home">Strona Główna</string>
+    <string name="menu_methods">Metody</string>
+</resources>

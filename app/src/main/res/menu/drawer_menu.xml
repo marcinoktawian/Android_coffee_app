@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_random"
+            android:icon="@drawable/ic_random"
+            android:title="@string/menu_random" />
+        <item android:title="@string/menu_methods">
+            <menu>
+                <item
+                    android:id="@+id/nav_aeropress"
+                    android:icon="@drawable/ic_aeropress"
+                    android:title="@string/menu_aeropress" />
+                <item
+                    android:id="@+id/nav_chemex"
+                    android:icon="@drawable/ic_chemex"
+                    android:title="@string/menu_chemex" />
+                <item
+                    android:id="@+id/nav_french_press"
+                    android:icon="@drawable/ic_french_press"
+                    android:title="@string/menu_french_press" />
+                <item
+                    android:id="@+id/nav_kalita"
+                    android:icon="@drawable/ic_kalita"
+                    android:title="@string/menu_kalita" />
+                <item
+                    android:id="@+id/nav_v60"
+                    android:icon="@drawable/ic_v60"
+                    android:title="@string/menu_v60" />
+                <item
+                    android:id="@+id/nav_syphon"
+                    android:icon="@drawable/ic_syphon"
+                    android:title="@string/menu_syphon" />
+                <item
+                    android:id="@+id/nav_cafetiere"
+                    android:icon="@drawable/ic_cafetiere"
+                    android:title="@string/menu_cafetiere" />
+            </menu>
+        </item>
+
+    </group>
+</menu>
