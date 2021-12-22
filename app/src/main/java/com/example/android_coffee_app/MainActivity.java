@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -40,18 +41,51 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        Bundle bundle = new Bundle();
+        MethodFragment method = new MethodFragment();
         switch (item.getItemId()) {
             case R.id.nav_home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
                 break;
+            case R.id.nav_random:
+                bundle.putString("name","Random");
+                method.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, method).commit();
+                break;
             case R.id.nav_aeropress:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AeropressFragment()).commit();
+                bundle.putString("name","Aeropress");
+                method.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, method).commit();
                 break;
             case R.id.nav_chemex:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ChemexFragment()).commit();
+                bundle.putString("name","Chemex");
+                method.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, method).commit();
                 break;
             case R.id.nav_french_press:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FrenchPressFragment()).commit();
+                bundle.putString("name","French Press");
+                method.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, method).commit();
+                break;
+            case R.id.nav_kalita:
+                bundle.putString("name","Kalita");
+                method.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, method).commit();
+                break;
+            case R.id.nav_v60:
+                bundle.putString("name","Drip v60");
+                method.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, method).commit();
+                break;
+            case R.id.nav_syphon:
+                bundle.putString("name","Syphon");
+                method.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, method).commit();
+                break;
+            case R.id.nav_cafetiere:
+                bundle.putString("name","Kawiarka");
+                method.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, method).commit();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);
@@ -67,4 +101,5 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
     }
+
 }
