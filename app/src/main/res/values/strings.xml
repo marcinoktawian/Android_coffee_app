@@ -3,14 +3,58 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="menu_aeropress">Aeropress</string>
-    <string name="menu_v60">Drip V60</string>
-    <string name="menu_kalita">Kalita</string>
-    <string name="menu_chemex">Chemex</string>
-    <string name="menu_french_press">French Press</string>
-    <string name="menu_syphon">Syfon</string>
-    <string name="menu_cafetiere">Kawiarka</string>
-    <string name="menu_random">Losuj metodę</string>
-    <string name="menu_home">Strona Główna</string>
-    <string name="menu_methods">Metody</string>
+    <string name="name_aeropress">Aeropress</string>
+    <string name="name_v60">Drip V60</string>
+    <string name="name_kalita">Kalita</string>
+    <string name="name_chemex">Chemex</string>
+    <string name="name_french_press">French Press</string>
+    <string name="name_syphon">Syfon</string>
+    <string name="name_cafetiere">Kawiarka</string>
+    <string name="name_random">Losuj metodę</string>
+    <string name="name_home">Strona Główna</string>
+    <string name="name_methods">Metody</string>
+
+    <string name="time_aeropress">1:30</string>
+    <string name="grind_aeropress">Sól kuchenna</string>
+    <string name="coffee_aeropress">22 gram</string>
+    <string name="water_aeropress">200 gram</string>
+    <string name="temp_aeropress">94-96°C</string>
+
+    <string name="time_v60">2:30</string>
+    <string name="grind_v60">Grubszy piasek</string>
+    <string name="coffee_v60">18 gram</string>
+    <string name="water_v60">300 gram</string>
+    <string name="temp_v60">82-92°C</string>
+
+    <string name="time_kalita">3:30</string>
+    <string name="grind_kalita">Sól gruboziarnista</string>
+    <string name="coffee_kalita">21 gram</string>
+    <string name="water_kalita">300 gram</string>
+    <string name="temp_kalita">84-96°C</string>
+
+    <string name="time_chemex">3:30</string>
+    <string name="grind_chemex">Sól gruboziarnista</string>
+    <string name="coffee_chemex">30 gram</string>
+    <string name="water_chemex">500 gram</string>
+    <string name="temp_chemex">86-96°C</string>
+
+    <string name="time_french_press">4:00</string>
+    <string name="grind_french_press">Sól gruboziarnista</string>
+    <string name="coffee_french_press">30 gram</string>
+    <string name="water_french_press">500 gram</string>
+    <string name="temp_french_press">94-96°C</string>
+
+    <string name="time_syphon">1:30</string>
+    <string name="grind_syphon">Sól kuchenna</string>
+    <string name="coffee_syphon">30 gram</string>
+    <string name="water_syphon">500 gram</string>
+    <string name="temp_syphon">94-96°C</string>
+
+    <string name="time_cafetiere">1-2 min</string>
+    <string name="grind_cafetiere">Drobny cukier</string>
+    <string name="coffee_cafetiere">W zależności od rozmiaru kafetierki</string>
+    <string name="water_cafetiere">W zależności od rozmiaru kafetierki</string>
+    <string name="temp_cafetiere">W zależności od rozmiaru kafetierki</string>
+
+
 </resources>

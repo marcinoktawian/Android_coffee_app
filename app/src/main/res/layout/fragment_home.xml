@@ -43,7 +43,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/menu_aeropress"
+                    android:text="@string/name_aeropress"
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>
@@ -74,7 +74,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/menu_chemex"
+                    android:text="@string/name_chemex"
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>
@@ -105,7 +105,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/menu_v60"
+                    android:text="@string/name_v60"
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>
@@ -136,7 +136,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/menu_kalita"
+                    android:text="@string/name_kalita"
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>
@@ -167,7 +167,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/menu_french_press"
+                    android:text="@string/name_french_press"
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>
@@ -198,7 +198,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/menu_syphon"
+                    android:text="@string/name_syphon"
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>
@@ -229,7 +229,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/menu_cafetiere"
+                    android:text="@string/name_cafetiere"
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>
@@ -260,7 +260,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/menu_random"
+                    android:text="@string/name_random"
                     android:layout_marginTop="8dp"
                     android:layout_gravity="center"
                     android:textAppearance="@style/TextAppearance.AppCompat"/>

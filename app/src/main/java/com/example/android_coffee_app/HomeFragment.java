@@ -31,7 +31,7 @@ public class HomeFragment extends Fragment  {
         aeropressView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bundle.putString("name","Aeropress");
+                bundle.putString("name","aeropress");
                 method.setArguments(bundle);
                 fm.beginTransaction().replace(R.id.fragment_container, method).commit();
             }
@@ -41,7 +41,7 @@ public class HomeFragment extends Fragment  {
         chemexView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bundle.putString("name","Chemex");
+                bundle.putString("name","chemex");
                 method.setArguments(bundle);
                 fm.beginTransaction().replace(R.id.fragment_container, method).commit();
             }
@@ -51,7 +51,7 @@ public class HomeFragment extends Fragment  {
         dripView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bundle.putString("name","Drip v60");
+                bundle.putString("name","v60");
                 method.setArguments(bundle);
                 fm.beginTransaction().replace(R.id.fragment_container, method).commit();
             }
@@ -61,7 +61,7 @@ public class HomeFragment extends Fragment  {
         kalitaView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bundle.putString("name","Kalita");
+                bundle.putString("name","kalita");
                 method.setArguments(bundle);
                 fm.beginTransaction().replace(R.id.fragment_container, method).commit();
             }
@@ -71,7 +71,7 @@ public class HomeFragment extends Fragment  {
         frenchPressView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bundle.putString("name","French Press");
+                bundle.putString("name","french_press");
                 method.setArguments(bundle);
                 fm.beginTransaction().replace(R.id.fragment_container, method).commit();
             }
@@ -81,7 +81,7 @@ public class HomeFragment extends Fragment  {
         syphonView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bundle.putString("name","Syfon");
+                bundle.putString("name","syphon");
                 method.setArguments(bundle);
                 fm.beginTransaction().replace(R.id.fragment_container, method).commit();
             }
@@ -91,7 +91,7 @@ public class HomeFragment extends Fragment  {
         cafetiereView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bundle.putString("name","Kawiarka");
+                bundle.putString("name","cafetiere");
                 method.setArguments(bundle);
                 fm.beginTransaction().replace(R.id.fragment_container, method).commit();
             }
@@ -101,7 +101,7 @@ public class HomeFragment extends Fragment  {
         randomView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bundle.putString("name","Wylosuj Metodę");
+                bundle.putString("name","random");
                 method.setArguments(bundle);
                 fm.beginTransaction().replace(R.id.fragment_container, method).commit();
             }
